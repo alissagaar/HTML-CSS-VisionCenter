@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop | Visual Center eCommerce</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,700;0,800;1,400;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/images/logo.png" width="200px" alt="logo">
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/pages/shop.html" style="color: #FF4438;">Shop</a></li>
+                        <li><a href="/pages/blog.html">Blog</a></li>
+                        <li><a href="/pages/carrito.html">Carrito</a></li>
+                        <li><a href="/pages/cuenta.html">Cuenta</a></li>
+                    </ul>
+                </nav>
+                <img src="/images/cart.png" alt="cart_icon" style="cursor: pointer;">
+                <img src="/images/menu.png" class="menu-icon" onclick="menutoggle()" alt="menu_icon">
+            </div>
+        </div>
+    </div>
+    
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>Todos los productos</h2>
+            <select name="" id="">
+                <option value="">Sin Filtrar</option>
+                <option value="">Filtrar por precio</option>
+                <option value="">Filtrar por popularidad</option>
+                <option value="">Filtrar por valoración</option>
+                <option value="">Filtrar por sale</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col-4">
+                <img src="/images/product-1.png" alt="product-1">
+                <h4>PRADA</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>PEN 699.30</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-2.png" alt="product-2">
+                <h4>TOM FORD</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>PEN 769.30</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-3.png" alt="product-3">
+                <h4>HUGO BOSS</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>PEN 919.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-4.png" alt="product-4">
+                <h4>CAROLINA HERRERA</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>PEN 619.30</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="/images/product-5.jpg" alt="product-5">
+                <h4>BVLGARI</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>PEN 1,799.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-6.jpg" alt="product-6">
+                <h4>BVLGARI</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>PEN 1,999.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-7.jpg" alt="product-7">
+                <h4>ARNETTE</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>PEN 719.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-8.jpg" alt="product-8">
+                <h4>ARNETTE</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>PEN 840.30</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-9.jpg" alt="product-9">
+                <h4>BVLGARI</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>PEN 1,042.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-10.jpg" alt="product-10">
+                <h4>RAY BAN</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>PEN 629.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-11.jpg" alt="product-11">
+                <h4>ARNETTE</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>PEN 799.30</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-12.jpg" alt="product-12">
+                <h4>PRADA</h4>
+                <div class="rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+                <p>PEN 699.30</p>
+            </div>
+        </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
+        </div>
+    </div>
+    
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-2">
+                    <img src="/images/logo-white.png" alt="logo-white">
+                    <p>En Vision Center tenemos las últimas<br> tendencias que tu mirada necesita. <br>Déjate ver con lo último en moda y <br> tecnología.</p>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Productos</h3>
+                    <ul>
+                        <li>Lentes de Sol</li>
+                        <li>Lentes de Contacto</li>
+                        <li>Lentes de Oftálmicos</li>
+                        <li>Accesorios</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Nosotros</h3>
+                    <ul>
+                        <li>Términos y condiciones</li>
+                        <li>Política de Privacidad</li>
+                        <li>Política de Devolución</li>
+                        <li>Contáctanos</li>
+                    </ul>
+                </div>
+                <div class="footer-col-1">
+                    <h3>Vision Center App</h3>
+                    <p>Descarga nuestra aplicación <br> Disponible para dispositivos Android y iOS</p>
+                    <div class="app-logo">
+                        <img src="/images/play-store.png" alt="play-store_logo">
+                        <img src="/images/app-store.png" alt="app-store_logo">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <p class="copyright">Vision Center © 2022 | Todos los derechos reservados</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- para que funcione el toggle menu -->
+    <script>
+        var menuItems= document.getElementById('menuItems');
+
+        menuItems.style.maxHeight= '0px';
+
+        function menutoggle() {
+            if(menuItems.style.maxHeight== '0px') {
+                menuItems.style.maxHeight = '200px';
+            } else {
+                menuItems.style.maxHeight = '0px';
+            }
+        }
+    </script>
+</body>
+</html>

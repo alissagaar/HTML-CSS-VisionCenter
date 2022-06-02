@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Visual Center eCommerce</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;0,700;0,800;1,400;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/images/logo.png" width="200px" alt="logo">
+                </div>
+                <nav>
+                    <ul id="menuItems">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/pages/shop.html">Shop</a></li>
+                        <li><a href="/pages/blog.html">Blog</a></li>
+                        <li><a href="/pages/carrito.html">Carrito</a></li>
+                        <li><a href="/pages/cuenta.html" style="color: #FF4438;">Cuenta</a></li>
+                    </ul>
+                </nav>
+                <img src="/images/cart.png" alt="cart_icon" style="cursor: pointer;">
+                <img src="/images/menu.png" class="menu-icon" onclick="menutoggle()" alt="menu_icon">
+            </div>
+        </div>
+    </div>
+    <!-- contact form -->
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="/images/image2.png" width="100%" alt="image2">
+                </div>
+                <div class="col-2">
+                    <div class="form-container">
+                        <div class="form-btn">
+                            <span>Registrarse</span>
+                        </div>
+                        <form>
+                            <input type="text" placeholder="Usuario">
+                            <input type="email" placeholder="Email">
+                            <input type="password" placeholder="Contraseña">
+                            <button type="submit" class="btn">Crear Cuenta</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-2">
+                    <img src="/images/logo-white.png" alt="logo-white">
+                    <p>En Vision Center tenemos las últimas<br> tendencias que tu mirada necesita. <br>Déjate ver con lo último en moda y <br> tecnología.</p>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Productos</h3>
+                    <ul>
+                        <li>Lentes de Sol</li>
+                        <li>Lentes de Contacto</li>
+                        <li>Lentes de Oftálmicos</li>
+                        <li>Accesorios</li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Nosotros</h3>
+                    <ul>
+                        <li>Términos y condiciones</li>
+                        <li>Política de Privacidad</li>
+                        <li>Política de Devolución</li>
+                        <li>Contáctanos</li>
+                    </ul>
+                </div>
+                <div class="footer-col-1">
+                    <h3>Vision Center App</h3>
+                    <p>Descarga nuestra aplicación <br> Disponible para dispositivos Android y iOS</p>
+                    <div class="app-logo">
+                        <img src="/images/play-store.png" alt="play-store_logo">
+                        <img src="/images/app-store.png" alt="app-store_logo">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <p class="copyright">Vision Center © 2022 | Todos los derechos reservados</p>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- para que funcione el toggle menu -->
+    <script>
+        var menuItems= document.getElementById('menuItems');
+
+        menuItems.style.maxHeight= '0px';
+
+        function menutoggle() {
+            if(menuItems.style.maxHeight== '0px') {
+                menuItems.style.maxHeight = '200px';
+            } else {
+                menuItems.style.maxHeight = '0px';
+            }
+        }
+    </script>
+</body>
+</html>
