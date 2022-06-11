@@ -1,0 +1,26 @@
+@import 'vars';
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    nav {
+        flex: 1;
+        text-align: right;
+        ul {
+            display: inline-block;
+            list-style-type: none;
+            li {
+                display: inline-block;
+                margin-right: 20px;
+                & :hover {
+                    color: $secondColor;
+                }
+                a {
+                    text-decoration: none;
+                    color: #555;
+                }
+            }
+        }
+    }
+}
